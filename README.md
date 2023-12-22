@@ -1,11 +1,8 @@
-# Transformando seu KDE Plasma no MacOS Monterey! (Like a Boss!)
----
-
 # Apresentação
 
 Olá, sou o M20. Um entusiasta de Linux e amante da customização de interfaces gráficas. Nesse artigo irei lhe apresentar o caminho das pedras para sair de um KDE plasma padrão:
 
-https://github.com/MyMacQt/mymacqt/blob/main/captura-de-tela/Captura%20de%20tela%2001.png?raw=true
+![[Captura de tela 01.png]]
 
 Para o KDE Plasma mais semelhante ao MacOS já feito: 
 
@@ -406,6 +403,3 @@ https://store.kde.org/u/zayronXIO (Apple Monterey Dark 5.27 or superior)
 https://store.kde.org/u/vinceliuice (MacSonoma KDE Dark theme, WhiteSur Gtk theme, Monterey sddm theme)
 
 https://github.com/matinlotfali (KDE Rounded Corners)
-
-
-
