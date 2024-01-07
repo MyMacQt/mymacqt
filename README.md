@@ -1,4 +1,4 @@
-![image](https://github.com/MyMacQt/mymacqt/assets/154471821/10a27938-850a-4ae9-80f8-aa798a4c18a2)# Apresentação
+# Apresentação
 
 Olá, sou o M20. Um entusiasta de Linux e amante da customização de interfaces gráficas. Nesse artigo irei lhe apresentar o caminho das pedras para sair de um KDE plasma padrão:
 
