@@ -2,7 +2,7 @@
 
 Olá, sou o M20. Um entusiasta de Linux e amante da customização de interfaces gráficas. Nesse artigo irei lhe apresentar o caminho das pedras para sair de um KDE plasma padrão:
 
-![[Captura de tela 01.png]]
+[![[Captura de tela 01.png]]](https://github.com/MyMacQt/mymacqt/blob/main/captura-de-tela/Captura%20de%20tela%2001.png?raw=true)
 
 Para o KDE Plasma mais semelhante ao MacOS já feito: 
 
