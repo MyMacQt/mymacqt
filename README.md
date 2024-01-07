@@ -1,4 +1,4 @@
-# Apresentação
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/10a27938-850a-4ae9-80f8-aa798a4c18a2)# Apresentação
 
 Olá, sou o M20. Um entusiasta de Linux e amante da customização de interfaces gráficas. Nesse artigo irei lhe apresentar o caminho das pedras para sair de um KDE plasma padrão:
 
@@ -41,18 +41,14 @@ Plataforma de gráficos: X11
 02 - Dê boot na ISO em um pendrive ou em uma máquina virtual, siga as instruções de instalação do sistema e reinicie.
 
 03 - Abra o gerenciador de pacotes **Pamac** (geralmente representado como **Adicionar/remover programas**):
-![image](https://github.com/MyMacQt/mymacqt/assets/154471821/9566ffcc-8a6a-45e8-a674-a01323037858)
-
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/10dedbe7-d3a1-43d1-9ea8-f8e6ca289900)
 
 04 - Ir até *Preferências < Terceiros* e habilitar o suporte ao AUR e Flatpak:
-![image](https://github.com/MyMacQt/mymacqt/assets/154471821/20d2f3a3-f7ae-40d2-be09-75c5f956d350)
-
-![image](https://github.com/MyMacQt/mymacqt/assets/154471821/f1e92412-1a12-4d9a-a218-681052594006)
-
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/38620ddc-68cf-4a1c-96ac-60696b716a26)
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/6f8c6b64-4ceb-4098-989b-9c4833823c44)
 
 05 - Atualize o banco de dados do **Pamac**:
-![image](https://github.com/MyMacQt/mymacqt/assets/154471821/ebe6134a-bdfa-4abf-9974-e329b9c958b3)
-
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/d2a45a0c-2dad-47ec-a264-62f4c5ff1867)
 
 06 - Após a atualização reinicie o sistema. É importante antes de logar alterar a plataforma de gráficos para X11 / X.org (Utilizaremos ela pois possui mais compatibilidade com temas GTK utilizados no MyMacQt, visto mais a frente).
 
@@ -63,8 +59,7 @@ sudo vim /etc/pacman.conf
 ```
 
 Descomente as linhas *Color, ParallelDownloads*. Recomendo aumentar o número de *ParallelDownloads = 10* (download de + pacotes simultaneamente) e adicionar uma linha com a frase *ILoveCandy* (Eu adoro doces) para o nosso amiguinho pacman sair comendo as bolinhas toda vez que for rodar no terminal.
-![image](https://github.com/MyMacQt/mymacqt/assets/154471821/66b47271-16bb-4b53-ad81-b365ad652ebe)
-
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/8255d9a4-ead2-4a8f-9e2c-95fb498a7616)
 
 # Baixando pacotes e apps essenciais 
 
@@ -77,7 +72,7 @@ sudo pacman -Syu ; sudo pacman -S base-devel yay git cmake extra-cmake-modules v
 Observação: Alguns pacotes só terão serventia para a distro Manjaro Linux, como é o caso do pacote *pamac-gtk3*.
 
 09 - Abra o **Pamac** e instale os seguintes programas:
-![[Captura de tela 08.png]]
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/fae61942-478d-4aca-bfdd-6395a0aa6ee5)
 
 Observação: O Amberol é apenas um tocador de música alternativo, que ficará bem mais "Cool" que o tocador padrão do Plasma.
 
@@ -85,7 +80,8 @@ Observação: O Amberol é apenas um tocador de música alternativo, que ficará
 Será essencial para conseguirmos ter aplicativos GTK em harmonia com os em Qt. 
 
 10 - Clique em **Todos os Aplicativos** e selecione as seguintes opções:
-![[Captura de tela 09.png]]
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/579a5c9d-ddab-4c56-80f9-3912bda9ca04)
+
 Em **Outros arquivos** adicione as seguintes pastas:
 
 ```
@@ -95,7 +91,7 @@ Em **Outros arquivos** adicione as seguintes pastas:
 ~/.icons
 ```
 
-![[Captura de tela 10.png]]
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/2261c628-408c-4079-9634-919bacc68e61)
 Em **Environment** adicione as seguintes variáveis:
 
 ```
@@ -105,7 +101,7 @@ ICON_THEME=WhiteSur
 GTK_THEME=WhiteSur-Dark
 ```
 
-![[Captura de tela 11.png]]
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/2fe57c9a-d771-4635-a8bf-cb9a2505a401)
 
 # Baixando temas WhiteSur
 
@@ -120,7 +116,7 @@ mkdir .themes .icons
 https://github.com/vinceliuice/WhiteSur-icon-theme
 
 https://github.com/vinceliuice/WhiteSur-gtk-theme (Usaremos apenas o arquivo *WhiteSur-Dark.tar.xz* localizado na pasta *release*).
-![[Captura de tela 12.png]]
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/3b799a89-0cab-48f3-bfce-e256f5186bf0)
 
 Lembre-se de extrair cada pasta para seu respectivo local:
 *~/home/.icons/WhiteSur-icon-theme
@@ -132,25 +128,25 @@ Atenção: Pode acontecer de não ser possível aplicar o tema GTK com os arquiv
 13 - Faça download do tema *Kvantum MacSonoma* do GitHub:
 
 https://github.com/vinceliuice/MacSonoma-kde (Usaremos somente os arquivos dentro da pasta *Kvantum/MacSonoma*)
-![[Captura de tela 13.png]]
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/c2bc01e8-51c4-4632-b4c1-16acf655c4ec)
 
 14 - Abra o **Kvantum Manager** e clique em **Selecione uma pasta de tema Kvantum**:
-![[Captura de tela 14.png]]
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/cf3ce589-865d-4dd1-a0b3-f37470b9b40d)
 
 Selecione o tema que foi baixado e clique em **Instalar este tema**.
 
 ---
 
 15 - Siga as demais instruções para **Kvantum Manager:**
-![[Captura de tela 15.png]]
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/be8d0c80-eeec-460f-8a5e-89e6a6d69dcc)
 
-![[Captura de tela 16.png]]
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/94af6607-914f-45d6-a9b7-97e697e67a48)
 
-![[Captura de tela 17.png]]
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/8f8e1d8c-be27-420d-b02d-da1ad2adc679)
 
-![[Captura de tela 18.png]]
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/791a995e-12af-47c9-ad28-584a8388cd1f)
 
-![[Captura de tela 19.png]]
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/4a7b3c11-4faf-403b-8494-41ed7d463121)
 
 ---
 
@@ -162,13 +158,13 @@ apple-monterey
 ```
 
 Instale este da imagem:
-![[Captura de tela 20.png]]
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/aabe551c-15fd-419c-89f3-4bba4e22210a)
 
 Também busque e instale:
 ```
 macsonoma
 ```
-![[Captura de tela 21.png]]
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/a0cf48c8-197a-48e1-911c-861bce97b8e7)
 
 Observação: Recomendo habilitar momentaneamente esta opção (para visualizar em que partes do sistema estamos aplicando modificações):
 ![[Captura de tela 22.png]]
