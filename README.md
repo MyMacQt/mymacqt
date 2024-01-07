@@ -2,11 +2,13 @@
 
 Olá, sou o M20. Um entusiasta de Linux e amante da customização de interfaces gráficas. Nesse artigo irei lhe apresentar o caminho das pedras para sair de um KDE plasma padrão:
 
-[![[Captura de tela 01.png]]](https://github.com/MyMacQt/mymacqt/blob/main/captura-de-tela/Captura%20de%20tela%2001.png?raw=true)
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/d3d5007c-1919-4b68-882b-20378f58783e)
+
 
 Para o KDE Plasma mais semelhante ao MacOS já feito: 
 
-![[Captura de tela 02.png]]
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/6d3521ff-0b65-478f-bbdc-cc180ab62f0f)
+
 
 # Por que um KDE Plasma com visual MacOS?
 
@@ -39,14 +41,18 @@ Plataforma de gráficos: X11
 02 - Dê boot na ISO em um pendrive ou em uma máquina virtual, siga as instruções de instalação do sistema e reinicie.
 
 03 - Abra o gerenciador de pacotes **Pamac** (geralmente representado como **Adicionar/remover programas**):
-![[Captura de tela 03.png]]
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/9566ffcc-8a6a-45e8-a674-a01323037858)
+
 
 04 - Ir até *Preferências < Terceiros* e habilitar o suporte ao AUR e Flatpak:
-![[Captura de tela 04.png]]
-![[Captura de tela 05.png]]
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/20d2f3a3-f7ae-40d2-be09-75c5f956d350)
+
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/f1e92412-1a12-4d9a-a218-681052594006)
+
 
 05 - Atualize o banco de dados do **Pamac**:
-![[Captura de tela 06.png]]
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/ebe6134a-bdfa-4abf-9974-e329b9c958b3)
+
 
 06 - Após a atualização reinicie o sistema. É importante antes de logar alterar a plataforma de gráficos para X11 / X.org (Utilizaremos ela pois possui mais compatibilidade com temas GTK utilizados no MyMacQt, visto mais a frente).
 
@@ -57,7 +63,8 @@ sudo vim /etc/pacman.conf
 ```
 
 Descomente as linhas *Color, ParallelDownloads*. Recomendo aumentar o número de *ParallelDownloads = 10* (download de + pacotes simultaneamente) e adicionar uma linha com a frase *ILoveCandy* (Eu adoro doces) para o nosso amiguinho pacman sair comendo as bolinhas toda vez que for rodar no terminal.
-![[Captura de tela 07.png]]
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/66b47271-16bb-4b53-ad81-b365ad652ebe)
+
 
 # Baixando pacotes e apps essenciais 
 
