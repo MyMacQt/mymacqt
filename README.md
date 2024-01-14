@@ -223,10 +223,10 @@ Atenção: O tema **WhiteSur-Dark** (GTK) em meus testes só funcionou corretame
 ![image](https://github.com/MyMacQt/mymacqt/assets/154471821/9f9633c0-5406-4f38-8bf9-d5f82b218a47)
 
 Observação: Em temas estilo MacOS criados para o Plasma você acaba encontrando uma variedade de **Decorações da janela** para instalar e testar, porém todos que testei até hoje possuem o mesmo problema:
-- A - Bordas da janela de cima redondas e bordas da janela de baixo quadradas.
+- A - Bordas da janela de cima redondas e bordas da janela de baixo quadradas:
 ![image](https://github.com/MyMacQt/mymacqt/assets/154471821/74293313-b15e-4402-99c7-cb996669b39b)
 
-- B - Bordas da janela de cima redondas e bordas da janela de baixo redondas com uma extensão inferior.
+- B - Bordas da janela de cima redondas e bordas da janela de baixo redondas com uma extensão inferior:
 ![image](https://github.com/MyMacQt/mymacqt/assets/154471821/77e53f4d-7898-4ad6-adfb-8fc6ce6013b3)
 
 Em particular, nunca me contentei com ambos! pois se afastam de como as janelas em um MacOS são (com ambas as bordas redondas). A extensão inferior (item B) acaba aumentando o tamanho das janelas desnecessariamente, isso pode causar estranhamento na hora de usar alguns aplicativos.
@@ -280,7 +280,7 @@ Essa sessão é opcional, eu gosto de usar 4 áreas de trabalho com bind no Alt+
 # Inicialização e desligamento
 
 28 - Em *Inicialização e desligamento < Tela de autenticação (SDDM) < Clique nos 3 pontos < Baixar novos temas SDDM*:
-![[Captura de tela 45.png]]
+![image](https://github.com/MyMacQt/mymacqt/assets/154471821/df922cbf-7433-4c27-97a6-82e56fba6d01)
 
 Busque por **Monterey** e instale o pacote **Monterey.tar.xz**:
 ```
